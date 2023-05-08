@@ -4,3 +4,5 @@ Desktop.ini
 *.exe
 /.vs/
 /cmake-build-debug/
+/build/
+/msbuild/

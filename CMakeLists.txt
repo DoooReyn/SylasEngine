@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.25)
-project(Sylas)
-
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(Sylas
-        main.c)
+cmake_minimum_required (VERSION 3.25)
+set (CMAKE_C_STANDARD 11)
+set (CMAKE_CXX_STANDARD 11)
+project (Sylas)
+include_directories("${PROJECT_SOURCE_DIR}/Framework/Common")
+include_directories("${PROJECT_SOURCE_DIR}/Framework/Interface")
+add_subdirectory(Framework)
+add_subdirectory(Empty)
