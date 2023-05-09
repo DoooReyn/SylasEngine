@@ -2,6 +2,8 @@ Desktop.ini
 .DS_Store
 *.obj
 *.exe
+*.ilk
+*.pdb
 /.vs/
 /cmake-build-debug/
 /build/
